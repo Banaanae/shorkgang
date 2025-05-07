@@ -5,9 +5,18 @@
     font-style: normal;
 }
 
+a{
+    text-decoration: none;
+}
+
+.nothingness{
+    text-decoration: underline;
+}
+
 h1{
     text-align: center;
     color: white;
+    font-size: 5vh;
 }
 
 body{
@@ -23,8 +32,12 @@ body{
 .jeff{
     position: absolute;
     left: 0;
-    margin-left: 10px;
+    top: 0;
+    margin-top: 0.5%;
+    margin-left: 1%;
+    height: 10vh;
 }
+
 
 .layout{
     display: grid;
@@ -58,6 +71,18 @@ body{
     height: 80vh;
 }
 
+.ott{
+    height: 60vh;
+    border: 1px solid #000;
+    border-radius: 1%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    margin: 2%;
+}
+
+.ninja{
+    height: 30vh;
+}
+
 .footer{
     grid-area: footer;
     background-color: #f6e174;
@@ -69,3 +94,62 @@ body{
     justify-content: center;
     align-items: center;  
 }
+
+c3{
+    color: green;
+}
+
+c5{
+    color: blue;
+}
+
+p{
+    text-align: center;
+    font-size: 3.5vh;
+}
+
+/* cool ppl stuff */
+.dropbtn {
+    background-color: #284861;
+    color: white;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.dropdown {
+    position: absolute;
+    right: 0;
+    margin-right: 17vw;
+    text-align: center;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #284861;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+  
+.dropdown-content a {
+    color: white;
+    font-size: 2.5vh;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: aqua;
+    color: black;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
