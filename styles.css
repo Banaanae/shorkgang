@@ -1,13 +1,4 @@
-@media (max-width: 768px) {
-    .main{
-        grid-area: main;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-}
+
 
 /* BS font */
 .brawl{
@@ -28,7 +19,7 @@ a{
 h1{
     text-align: center;
     color: white;
-    font-size: 5vh;
+    font-size: 4.7vh;
 }
 
 body{
@@ -167,3 +158,55 @@ p{
     display: block;
 }
 
+@media (max-width: 1000px) {
+    .main{
+        grid-area: main;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .header{
+        grid-area: header;
+        background-color: #284861;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 25vh;
+        padding: 7px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    }
+
+    .ninja{
+        height: 30vw;
+    }
+
+    .ott{
+        height: 60vw;
+    }
+
+    .small{
+        font-size: 5vw;
+    }
+
+    .dropdown {
+        position: relative;
+        margin: auto;
+    }
+
+    .jeff{
+        display: none;
+    }
+      
+    .dropdown-content a {
+        color: white;
+        font-size: 8vw;
+        padding: 1vh 5vw;
+        border: #000 solid 1px;
+        text-decoration: none;
+        display: block;
+    }
+    
+}
