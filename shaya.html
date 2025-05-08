@@ -22,20 +22,20 @@
         </a>
 
         <div class="dropdown brawl">
-          <button class="dropbtn brawl"><h1>Cool ppl</h1></button>
-          <div class="dropdown-content">
-          <a href="piggy.html">Piggy</a>
-          <a href="shaya.html">Not Shaya</a>
-          <a href="maybefxsh.html">Fxshi?</a>
-          <a href="hunter.html">Huntman13</a>
-          <a href="supa.html">Supa</a>
-          </div>
+          <div id="links"></div>
+          <script>
+            fetch('/links.html')
+              .then(response => response.text())
+              .then(data => {
+                document.getElementById('links').innerHTML = data;
+              });
+          </script>
         </div>
 
       </div>
 
       <div class="main">
-        <img class = "ott" src="shaya.jpg" alt="ok shaya">
+        <img class = "ott" src="images/shaya.jpg" alt="ok shaya">
         <p class="brawl small">Ok shaya
             <br> u fat NIN JAR <br>
           <img class="ninja" src="fat_ninja.png"> </p>

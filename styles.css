@@ -84,6 +84,10 @@ body{
     margin: 2%;
 }
 
+.uhm2{
+    height: 15vw;
+}
+
 .ninja{
     height: 15vw;
 }
@@ -207,6 +211,10 @@ p{
         border: #000 solid 1px;
         text-decoration: none;
         display: block;
+    }
+
+    .uhm2{
+        height: 15vh;
     }
     
 }
