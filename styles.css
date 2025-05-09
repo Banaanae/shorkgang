@@ -162,7 +162,7 @@ p{
     display: block;
 }
 
-/* @media (max-width: 1000px) {
+@media (max-width: 1000px) {
     .main{
         grid-area: main;
         display: flex;
@@ -217,4 +217,4 @@ p{
         height: 15vh;
     }
     
-} */
+}
