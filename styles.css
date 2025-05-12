@@ -178,6 +178,8 @@ p{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-bottom: auto;
+        margin-top: auto;
     }
 
     .header{
@@ -187,7 +189,7 @@ p{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 25vh;
+        height: 18vh;
         padding: 7px;
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
     }
@@ -229,7 +231,22 @@ p{
     .uhm2{
         height: 15vh;
     }
+
     .smal{
         height: 5vh;
+    }
+
+    h1{
+        text-align: center;
+        color: white;
+        font-size: 3.5vh;
+    }
+
+    .footer{
+        height: 5vh;
+    }
+
+    .brawl{
+        font-size: 3vh;
     }
 }
