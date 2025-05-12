@@ -84,6 +84,15 @@ body{
     margin: 2%;
 }
 
+.dash{
+    height: 30vw;
+    margin: 2%;
+}
+
+.smal{
+    height: 5vh;
+}
+
 .uhm2{
     height: 15vw;
 }
@@ -191,6 +200,10 @@ p{
         height: 30vh;
     }
 
+    .dash{
+        height: 22vh;
+    }
+
     .small{
         font-size: 2vh;
     }
@@ -206,7 +219,7 @@ p{
       
     .dropdown-content a {
         color: white;
-        font-size: 4vh;
+        font-size: 3vh;
         padding: 1vh 5vw;
         border: #000 solid 1px;
         text-decoration: none;
@@ -216,5 +229,7 @@ p{
     .uhm2{
         height: 15vh;
     }
-    
+    .smal{
+        height: 5vh;
+    }
 }
